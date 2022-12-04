@@ -21,7 +21,8 @@
 정면 영상의 특징점과 돌아간 얼굴 영상의 특징점 간의 변환 행렬을 구해 그것으로 변환하는 가장 간단한 방법이다.
 ##### 결과
 <img width="664" alt="sol1" src="https://user-images.githubusercontent.com/38284326/205492384-9b8c6e64-8fa9-4dea-a8fd-58540fb9fa89.png">
-* 결과물이 찌그려져 보임
+
+* 결과물이 찌그려져 보이는 문제가 발생
 * 정면 영상이 필요함
 
 
@@ -29,13 +30,15 @@
 Solution 1의 문제를 해결하기 위한 방법이다. 이목구비가 코를 중심으로 대칭을 이루고 콧대가 일직선인 정면의 일반적인 특징을 반영하는 점들을 만들어 변환 행렬을 구하고 변환한다.
 #### 결과
 <img width="665" alt="sol2" src="https://user-images.githubusercontent.com/38284326/205492573-9346eea5-9c83-49b4-b9e2-ea10ed433ede.png">
-* 얼굴이 넓어짐
+
+* 얼굴이 넓어지는 문제가 발생
 
 
 #### Solution 3. 3차원 회전을 이용하는 방법
 Solution 2의 문제를 해결하기 위한 방법이다. 2차원 영상을 3차원으로 매핑, 회전, 2차원으로 변환한다.
 #### 결과
 <img width="665" alt="sol3" src="https://user-images.githubusercontent.com/38284326/205492678-fbaaa811-0ab6-4eaf-9ecf-93f71dfe0f98.png">
+
 * 완전하진 않으나 전과 비교하여 개선되었음
 
 
