@@ -38,3 +38,7 @@ Solution 2의 문제를 해결하기 위한 방법이다. 2차원 영상을 3차
 <img width="665" alt="sol3" src="https://user-images.githubusercontent.com/38284326/205492678-fbaaa811-0ab6-4eaf-9ecf-93f71dfe0f98.png">
 * 완전하진 않으나 전과 비교하여 개선되었음
 
+
+### 출처
+dlib의 특징점 추정에 사용한 shape predictor dat파일
+https://osdn.net/projects/sfnet_dclib/downloads/dlib/v18.10/shape_predictor_68_face_landmarks.dat.bz2/
